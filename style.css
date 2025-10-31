@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif; /* Fonte legível */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Fundo suave */
+    color: #333;
+}
+
+/* Estilização para o cabeçalho (header) */
+header {
+    background-color: #2c3e50; /* Cor escura e moderna para o fundo */
+    color: #ecf0f1; /* Texto claro para contraste */
+    padding: 40px 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidade */
+}
+
+/* Estilização para o título (h1) */
+header h1 {
+    font-size: 2.5em; /* Título maior */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498db; /* Linha de destaque azul */
+    display: inline-block; /* Ajusta a linha de destaque ao tamanho do texto */
+    padding-bottom: 5px;
+}
+
+/* Estilização para o parágrafo (p) */
+header p {
+    font-size: 1.1em; /* Parágrafo com letra um pouco maior */
+    max-width: 700px; /* Limita a largura do texto para melhor leitura */
+    margin: 20px auto 30px auto; /* Centraliza e adiciona margem inferior */
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+}
+
+/* Estilização para a imagem (img) */
+header img {
+    border-radius: 10px; /* Bordas arredondadas para um visual suave */
+    border: 3px solid #3498db; /* Borda azul para destaque */
+    max-width: 100%; /* Garante que a imagem seja responsiva */
+    height: auto;
+    margin-top: 20px;
+}
+
